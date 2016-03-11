@@ -1,6 +1,20 @@
 // @import 'yoga';
 // @import 'normalize';
 
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+@import 'font-awesome';
 @import 'box-sizing';
+@import 'top-nav';
+@import 'banner';
+
+$brand-dark-gray: #212121;
+$brand-white: #f4f4f4;
+$brand-light-gray: #585558;
+$brand-red: #EF5350;
+
+body {
+  margin: 0;
+  background: $brand-dark-gray;
+  color: $brand-light-gray;
+  font-family: sans-serif;
+}
