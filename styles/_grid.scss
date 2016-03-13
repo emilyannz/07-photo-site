@@ -1,0 +1,33 @@
+
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+
+
+  &__photo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+
+
+    &__photo-info-list {
+      display: flex;
+      flex-wrap: wrap;
+      flex-grow: 2;
+}
+}
+}
+
+
+  &__photo-info {
+    display: flex;
+    flex-wrap: wrap;
+}

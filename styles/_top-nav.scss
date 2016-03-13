@@ -3,11 +3,21 @@
   justify-content: space-between;
   padding: 5px;
   background: #212121;
-}
- .top-nav-group {
-   color: #585558;
- }
 
-.top-nav__brand {
-  color: #f4f4f4;
+  :hover {
+    color: $brand-red;
+  }
+
+  &__group {
+    color: #585558;
+  }
+
+  &__brand {
+    color: #f4f4f4;
+  }
+
+  &__link {
+    color: inherit;
+    text-decoration: none;
+  }
 }
