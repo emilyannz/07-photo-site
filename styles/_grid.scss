@@ -2,7 +2,6 @@
   width: 100%;
   margin: auto;
 }
-
 .row {
   display: flex;
   flex-flow: row wrap;
@@ -13,18 +12,17 @@
   &__photo {
     display: flex;
     flex-wrap: wrap;
-    background: green;
-    width: 100%;
     justify-content: flex-end;
+    width: 100%;
+    background: green;
 
     &__photo-info {
       display: flex;
       flex-wrap: wrap;
+      width: 50%;
       background: red;
 
-
       &__photo-info-list {
-        list-style-type: none;
         display: flex;
         flex-wrap: wrap;
         width: 50%;
