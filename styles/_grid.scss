@@ -1,33 +1,31 @@
-
-
 .container {
   width: 100%;
   margin: auto;
 }
-
 .row {
   display: flex;
   flex-flow: row wrap;
   padding-top: 5rem;
   padding-bottom: 5rem;
-
+  background: blue;
+  justify-content: flex-end;
 
   &__photo {
     display: flex;
     flex-wrap: wrap;
-    flex-grow: 1;
+    background: green;
 
-
-    &__photo-info-list {
+    &__photo-info {
       display: flex;
       flex-wrap: wrap;
-      flex-grow: 2;
-}
-}
-}
+      width: 50%;
+      align-items: flex-end;
 
-
-  &__photo-info {
-    display: flex;
-    flex-wrap: wrap;
+      &__photo-info-list {
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+  }
 }

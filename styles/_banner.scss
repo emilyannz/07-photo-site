@@ -1,5 +1,5 @@
 .banner {
-  background: #212121;
+  background: $brand-dark-gray;
   width: 15rem;
   margin: 2rem auto 0;
   position: relative;
@@ -14,7 +14,7 @@
     margin: 0;
     bottom: 1rem;
     width: 100%;
-    color: #f4f4f4;
+    color: $brand-white;
     text-align: center;
   }
 }

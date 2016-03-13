@@ -2,18 +2,18 @@
   display: flex;
   justify-content: space-between;
   padding: 5px;
-  background: #212121;
+  background: $brand-dark-gray;
 
   :hover {
     color: $brand-red;
   }
 
   &__group {
-    color: #585558;
+    color: $brand-light-gray;
   }
 
   &__brand {
-    color: #f4f4f4;
+    color: $brand-white;
   }
 
   &__link {
