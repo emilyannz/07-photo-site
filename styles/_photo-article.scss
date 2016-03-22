@@ -1,8 +1,5 @@
 .main-content {
   margin: auto;
-
-
-
 }
 
 .main-content__column {
@@ -10,7 +7,6 @@
   flex-direction: column;
   width: 80%;
   margin: auto;
-
 }
 
 .photo-article {
@@ -25,7 +21,6 @@
 }
 
 .photo-info {
-  // width: 60%;
   flex-grow: 1;
   flex-shrink: 1;
 
@@ -51,16 +46,12 @@
     &--date-stamp {
       margin-left: 1rem;
     }
-
   }
 }
 
 .photo-details {
   display: flex;
-  // flex-basis: calc(20% - 2.5rem);
   flex-direction: column;
-  // flex-grow: 1;
-  // flex-shrink: 1;
   min-width: 14rem;
   width: calc(20%);
   margin: 0 0 0 1rem;
@@ -70,12 +61,10 @@
     display: flex;
     align-items: center;
     margin: 0;
-
   }
 
   &__text {
     margin: 0.5rem;
-
 
     &--red {
       margin: 0.5rem;
@@ -86,6 +75,4 @@
       margin: 0.5rem 1rem;
     }
   }
-
-
 }
