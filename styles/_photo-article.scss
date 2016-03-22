@@ -25,7 +25,7 @@
   flex-shrink: 1;
 
   &__overlay {
-    @extend %inkwell;
+    @extend %gingham;
   }
 
   &__img {
